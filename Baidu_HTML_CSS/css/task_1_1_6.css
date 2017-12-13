@@ -1,0 +1,433 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.contain{
+	width:980px;
+	height: 1386px;
+	/*background-color: skyblue;*/
+	margin: 0 auto;
+}
+.nav{
+	width: 892px;
+	height: 61px;
+	margin: 0 auto;
+}
+.nav .hz{
+	float: left;
+	width: 110px;
+	height: 61px;
+	background-color: #d45d5c;
+	text-align: center;
+}
+.nav .name{
+	color:#ffffff;
+	font-size: 12px;
+	font-style: "黑体";
+	margin-top:40px; 
+}
+.nav .date{
+	padding-top: 40px;
+	float: right;
+	color:#d45d5c;
+	font-size: 12px;
+	font-style: "黑体";
+}
+.content{
+	width:892px; 
+	height:1260px;
+	margin: 0 auto;
+	border-bottom: 2px solid #938e8c;
+	border-top: 2px solid #938e8c;
+}
+.content .one{
+	width: 892px;
+	height: 630px;
+}	
+.content .one .left{
+	float: left;
+	width: 641px;
+	height: 100%;
+	/*background-color: white;*/
+}
+.content .one .left .top{
+	position: relative;
+}
+.content .one .left .top .left_zhe{
+	width: 191px;
+	height: 301px;
+	background-color: rgba(49,111,77,0.6);
+	position: absolute;
+	top:14px;
+	left: 0;
+}
+.content .one .left .top .right_zhe{
+	width: 191px;
+	height: 301px;
+	background-color: rgba(235,153,153,0.6);
+	position: absolute;
+	top:14px;
+	right: 0;
+}
+.content .one .left .bottom{
+	margin-top: 35px;
+}
+.content .one .left .bottom .bottom_left{
+	float: left;
+	width: 250px;
+	margin-right: 50px;
+}
+.content .one .left .bottom .bottom_left .bt{
+	color: #4185c9;
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.content .one .left .bottom .bottom_left .article{
+	color: #767777;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+	opacity: 0.7;
+	font-family: 'Microsoft YaHei','Microsoft YaHei UI';
+}
+.content .one .left .bottom .bottom_center{
+	float: left;
+	width: 200px;
+}
+.content .one .left .bottom .bottom_center .bt{
+	color: #d2994f;
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.content .one .left .bottom .bottom_center .article{
+	color: #767777;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	opacity: 0.7;
+	font-family: 'Microsoft YaHei','Microsoft YaHei UI';
+}
+.content .one .left .bottom .bottom_right{
+	float: right;
+	width: 100px;
+}
+.content .one .left .bottom .bottom_right .bt{
+	color: #cc7680;
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.content .one .left .bottom .bottom_right .article{
+	color: #767777;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	opacity: 0.7;
+	font-family: 'Microsoft YaHei', 'Microsoft YaHei UI';
+}
+.content .one img{
+	width: 641px;
+	height:301px;
+	margin-top: 15px;
+}
+.content .one .right{
+	float: right;
+	width: 203px;
+	height: 100%;
+	margin-left: 25px;
+	position: relative;
+	overflow: hidden;
+	/*background-color: pink;*/
+}
+.content .one .right .line1{
+	border-bottom: 2px solid #c0c0c0;
+	position: absolute;
+	margin-top: 0px;
+}
+.content .one .right .line2{
+	border-bottom: 2px solid #c0c0c0;
+	position: absolute;
+	margin-top: 30px;
+}
+.content .one .right .hr{
+	width:203px;
+	background-color: #cc8091;
+	color:#cc8091;
+	height: 2px;
+	margin-top: 20px;
+}
+.content .one .right .a1{
+	color:#000000;
+	font-size: 24px;
+	font-family: "微软雅黑";
+}
+.content .one .right .a2{
+	color:#676767;
+	font-size: 12px;
+	font-family: "楷体";
+	line-height: 10px;
+	margin-top: 73px;
+}
+.content .one .right .a3{
+	color: #75b86b;
+	font-size: 116px;
+	font-style: italic;
+	font-family: "微软雅黑";
+}
+.content .one .right .seven{ 
+	position: absolute;
+	margin-top: 0px;
+	margin-left: -20px;
+}
+.content .one .right .a4{
+	color: #cc8091;
+	font-size: 55px;
+	position: absolute;
+	margin-top: 139px;
+}
+.content .one .right .a41{
+	color: #cc8091;
+	font-size: 21px;
+	position: relative;
+	top:-15px;
+	left: 10px;
+}
+.content .one .right .a42{
+	color: #c0c0c0;
+	font-size: 12px;
+	position: relative;
+	top:0;
+	left: -36px;
+}
+.content .one .right .a1 span{
+	font-size: 18px;
+}
+
+.content .two{
+	width: 892px;
+	height: 630px;
+}	
+.content .two .left{
+	float: left;
+	width: 415px;
+	height: 100%;
+	/*background-color: green;*/
+}
+.content .two .left .bt{
+	font-size: 72px;
+	color: #f5c327;
+	font-family: "黑体";
+	font-weight: bold;
+	font-style: italic;
+}
+.content .two .left  .bt2{
+	font-size: 42px;
+	color: #11456b;
+	font-family: "黑体";
+	font-weight: bold;
+}
+.content .two .left  .bt3{
+	font-size: 33px;
+	color: #11456b;
+	font-family: "黑体";
+	font-weight: bold;
+}
+.content .two .left .jieshao{
+	font-size: 12px;
+	color: #767777;
+}
+.content .two .left .jieshao1{
+	font-size: 12px;
+	color: #767777;
+	text-indent: 2em;
+}
+.content .two .left img{
+	float: right;
+	margin: 10px 0px 5px 10px;
+}
+.content .two .left .jieshao:first-letter{
+	font-size: 70px;
+	color: #f51327;
+	float: left;
+}
+.content .two .right{
+	float: right;
+	width: 458px;
+	height: 100%;
+	position: relative;
+	/*background-color: red;*/
+}
+.content .two .right .top .ziti{
+	width: 458px;
+	height: 61px;
+	position: absolute;
+	top:197px;
+	left: 0px;
+	background-color: rgba(130,130,130,0.7);
+}
+.content .two .right .top .ziti .sx{
+	background-color: #72b16a;
+	width: 3px;
+	height: 44px;
+	position: absolute;
+	left: 53px;
+	top: 10px;
+}
+.content .two .right .top .ziti p{
+	position: absolute;
+	left: 70px;
+	top: 10px;
+	font-size: 26px;
+	color: #ffffff;
+}
+.content .two .right .top .ziti span{
+	font-size: 12px;
+	color: #72b16a;
+	font-style: italic;
+	word-spacing: 140%;
+}
+.content .two .right .bottom{
+	width: 459px;
+	height: 318px;
+	background-color: rgb(238,238,214);
+	margin-top: 10px;
+	box-sizing: border-box;
+	position: relative;
+}
+.content .two .right .bottom p{
+	padding: 10px;
+	font-size: 16px;
+	color: #5a5b5b;
+}
+.content .two .right .bottom .box{
+	width: 260px;
+	height: 160px;
+	background-color: rgb(213,93,92);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.content .two .right .bottom .box .b1{
+	font-family: "微软雅黑";
+	font-size: 110px;
+	color: #ffffff;
+	border-right: 2px solid #fff;
+	position: absolute;
+	top: 8px;
+	left: 13px;
+}
+.content .two .right .bottom .box .b2{
+	font-family: "黑体";
+	font-size: 21px;
+	color: #ffffff;
+	font-style: italic;
+	position: absolute;
+	top: 34px;
+	left: 95px;
+}
+.content .two .right .bottom .box .b3{
+	font-family: "黑体";
+	font-size: 21px;
+	color: #ffffff;
+	font-style: italic;
+	position: absolute;
+	top: 63px;
+	left: 95px;
+}
+.content .two .right .bottom .box .b4{
+	font-family: "黑体";
+	font-size: 12px;
+	color: #ffffff;
+	font-style: italic;
+	position: absolute;
+	top: 97px;
+	left: 95px;
+}
+.content .two .right .bottom .text{
+	width: 190px;
+	height: 160px;
+	position: relative;
+	left: 270px;
+	bottom: 0;
+}
+.content .two .right .bottom .text .syh1{
+	color:#d45d5c;
+	font-size: 72px;
+	position: absolute;
+	top:16px;
+	left: 0;
+}
+.content .two .right .bottom .text .syh2{
+	color:#d45d5c;
+	font-size: 72px;
+	position: absolute;
+	bottom:-70px;
+	right: 16px;
+}
+.content .two .right .bottom .text .hello{
+	font-size: 14px;
+	color: #5a5b5b;
+	font-style: italic;
+	position: absolute;
+	bottom:25px;
+	right: 16px;
+}
+.content .two .right .bottom p{
+	font-size: 16px;
+	line-height: 20px;
+	color: #5a5b5b;
+	margin-left: 60px;
+}
+.content .two .right .bottom .sanjiao{
+	width: 0;
+	height: 0;
+	border-width:0 5px 8px;
+	border-color:transparent transparent rgba(37,47,108,1.0);
+	/*border-color: transparent transparent rgba(37,47,108,1.0);*/
+	border-style: solid;
+	position: absolute;
+	left: 45px;
+	top: 16px;
+}
+.content .two .right .bottom .sanjiao1{
+	width: 0;
+	height: 0;
+	border-width:0 5px 8px;
+	border-color:transparent transparent rgba(37,47,108,1.0);
+	/*border-color: transparent transparent rgba(37,47,108,1.0);*/
+	border-style: solid;
+	position: absolute;
+	left: 45px;
+	top: 60px;
+}
+.content .two .right .bottom .sanjiao2{
+	width: 0;
+	height: 0;
+	border-width:0 5px 8px;
+	border-color:transparent transparent rgba(37,47,108,1.0);
+	/*border-color: transparent transparent rgba(37,47,108,1.0);*/
+	border-style: solid;
+	position: absolute;
+	left: 45px;
+	top: 100px;
+}
+.content .two .right .bottom .last{
+	font-size: 12px;
+	font-style: italic;
+}
+
+.foot{
+	width:892px; 
+	margin: 0 auto;
+}
+.foot .name{
+	float: right;
+	color:#d45d5c;
+	font-size: 12px;
+	font-style: "黑体";
+}

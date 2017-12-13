@@ -1,0 +1,203 @@
+/*http://ppyuex.coding.me/ife/html/task11.html*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"Helvetica Neue",Helvetica,STHeiTi,sans-serif,Arial,Verdana,Sans-serif;
+}
+
+header{
+	background-color:rgb(145,212,218);
+	height:3rem;
+	line-height:3rem;
+	color:#fff;
+	text-align:center;
+	/*
+	 *display:flex;
+	 *align-items:center;
+	 *justify-content:space-between;
+	*/
+}
+
+header span{
+	position:absolute;
+	left:5px;
+	font-size:1.17rem;
+}
+
+header span::before{
+	content:'<';
+	display:inline-block;
+}
+
+nav ul{
+	display:flex;
+	justify-content:space-around;
+	height:3rem;
+	list-style:none;
+}
+
+nav ul li{
+	line-height:3rem;
+}
+
+nav .select-this{
+	border-bottom:0.3rem solid #91d4da;
+}
+
+.tag-wrap img{
+	width:100%;
+}
+
+.tag-group ul{
+	display:flex;
+	justify-content:space-around;
+	list-style:none;
+	text-align:center;
+	padding:1rem 0;
+}
+
+.tag-group ul li img{
+	width:70%;
+}
+
+.cols-3{
+	border-top:0.1rem solid #ccc;
+	display:flex;
+	justify-content:space-around;
+	padding:1rem 0;
+}
+
+.col{
+	text-align:center;
+	flex:1;
+}
+
+.col img{
+	width:100%;
+	height:80%;
+	margin:0 auto;
+}
+
+/*
+	.col:nth-child(1){
+		border-right:0.1rem solid #ccc;
+	}
+	.col:nth-child(2){
+		border-right:0.1rem solid #ccc;
+	}
+*/
+
+.col:not(:last-child){
+	border-right:0.1rem solid #ccc;
+}
+
+.col h2{
+	color:#111;
+	font-size:1.5rem;
+	line-height:2.0rem;
+}
+.col h6{
+	color:#333;
+	font-size:1.2rem;
+	line-height:2.0rem;
+	font-weight:500;
+}
+
+/* 模块 */
+
+.module{
+	/*border-top:1.5rem solid #eee;*/
+	margin-top:2rem;
+}
+
+.module h2{
+	width:90%;
+	font-size:1.5rem;
+	color:#656565;
+	border-bottom:0.2rem solid #eee;
+	margin-left:2.3rem;
+	line-height:4rem;
+}
+
+.module section{
+	display:flex;
+	margin:1rem 0 1rem 2.3rem;
+}
+.module section img{
+	border:0.1rem solid #FEB832;
+	margin:0 0.5rem 0 0;
+	width: 28%;
+	height: 45%;
+}
+.module section ul{
+	list-style:none;
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+.module section ul li{
+	align-items:center;
+	justify-content:center;
+	background-color:#eee;
+	width:45%;
+	height:45%;
+	text-align:center;
+	margin:0 3.5% 3.5% 0;
+	line-height: 2.5rem;
+}
+.module section ul li a{
+	text-decoration:none;
+	color:#000;
+	font-size:0.8rem;
+}
+
+.article ul li{
+	border-bottom:3px solid #eee;
+	display:flex;
+	padding:2.3rem;
+}
+
+.article ul li img{
+	width:32%;
+	height:80%;
+}
+
+.article li img{
+	margin-right:2rem;
+}
+
+.article .item-1 li div{
+	display:flex;
+	justify-content:space-between;
+	flex-flow:column nowrap;
+}
+
+.article .item-2 li div figure{
+	display:flex;
+	margin-top:0.5rem;
+	justify-content:space-between;
+	margin-right:2rem;
+}
+
+.article .item-2 li div span{
+	line-height:4rem;
+}
+
+.article .item-2 li div h2{
+	line-height:3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
